@@ -1,4 +1,4 @@
-# arduino-pin-digital
+# DigitalPin
 
 A very basic library describing a digital pin for use with Arduino projects. Currently using Arduino Uno R3 if that matters. Digital pins have either a 1 or a 0 as their input or output at any given time. Options will be given to initialize as INPUT, OUTPUT, or INPUT_PULLUP.
 
@@ -49,13 +49,13 @@ I have to do a lot of thinking on Contributing. It's not being done right now, t
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/George-Aiken/arduino-digital-pin/tags). There may not be tags yet though, this is a lot to work with. 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/George-Aiken/DigitalPin/tags). There may not be tags yet though, this is a lot to work with. 
 
 ## Authors
 
 * **George Aiken** - *Initial work* - [George-Aiken](https://github.com/George-Aiken)
 
-See also the list of [contributors](https://github.com/George-Aiken/arduino-digital-pin/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/George-Aiken/DigitalPin/contributors) who participated in this project.
 
 ## License
 
