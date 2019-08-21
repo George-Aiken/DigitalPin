@@ -3,6 +3,11 @@
 
 #include "Arduino.h"
 
+/* 
+ * A representation of a pin. There is no logging in this version
+ * in light of the size of data you can have, and potential 
+ * performance issues.
+ */
 class DigitalPin	
 {
   public:
@@ -12,9 +17,9 @@ class DigitalPin
     void setup();
     void on();
     void off();
-    void change();
+    void toggle();
     bool value();
-
+  
   private:
     uint8_t _pin;
     uint8_t _mode;
