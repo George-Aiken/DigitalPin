@@ -84,6 +84,9 @@ void DigitalPin::toggle()
   }
 }
 
+/*
+ * returns the DigitalPin's _on value.
+ */
 bool DigitalPin::value()
 {
   return _on;
